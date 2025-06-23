@@ -27,7 +27,7 @@ function Projects() {
               title="Construction Monitoring using ML "
               description="Construction monitoring using Machine Learning (ML) involves leveraging AI techniques to track, analyze, and optimize construction projects in real time. This approach enhances efficiency, reduces costs, and improves safety."
               ghLink="https://github.com/sriram1015/Construction_progress"
-              demoLink="https://youtu.be/8FfhJK1HJME?si=7efZGKSFfRwpEFW_"
+              demoLink="https://livesite.onesrv.tech/"
             />
           </Col>
 
@@ -38,7 +38,7 @@ function Projects() {
               title="Farm Market"
               description="A farm market website is an online platform that connects farmers with consumers, allowing them to buy and sell fresh produce directly. It typically includes features like product listings, search filters, a shopping cart, user authentication, and online payments."
               ghLink="https://github.com/sriram1015/FarmMarket"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="#"
             />
           </Col>
 
@@ -49,7 +49,7 @@ function Projects() {
               title="Vehicle Model Recognition"
               description="Vehicle model recognition is a computer vision task that involves identifying the make and model of a vehicle from an image. This project uses a deep learning model to recognize the make and model of vehicles in images."
               ghLink="https://github.com/sriram1015/VehicleModelRecognition"
-              demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="#"              
             />
           </Col>
 
@@ -60,7 +60,7 @@ function Projects() {
               title="E-Commerce Website"
               description="An e-commerce website for a retail shop is an online platform where customers can browse, purchase, and receive products from a retail store. It enhances business reach, provides a seamless shopping experience, and automates sales processes."
               ghLink="https://github.com/sriram1015/Krithin-Plaza"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              demoLink="#"
             />
           </Col>
 
