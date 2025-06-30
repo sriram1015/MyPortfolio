@@ -25,7 +25,7 @@ body, .portfolio {
 .avatar-box {
   background: #232325;
   border-radius: 24px;
-  padding: 32px;
+  padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,15 +33,15 @@ body, .portfolio {
 }
 
 .avatar-box img {
-  border-radius: 16px;
-  width: 80px;
-  height: 80px;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 
 .info-content {
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 3px;
 }
 
 .name {
@@ -79,14 +79,14 @@ body, .portfolio {
 }
 
 .icon-box {
-  background: #e0e0e5;
+  background: #fbfbf8;
   border-radius: 12px;
   padding: 10px;
   margin-right: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffd700;
+  color: #0e0e0e;
   font-size: 1.3rem;
 }
 
@@ -122,7 +122,7 @@ body, .portfolio {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffd700;
+  color: #10100f;
   font-size: 1.5rem;
   transition: background 0.2s, color 0.2s;
 }

@@ -6,17 +6,30 @@ const Portfolio = () => {
             <aside className="sidebar" data-sidebar>
                 <div className="sidebar-info">
                     <figure className="avatar-box">
-                        <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80" />
+                        <img src="sriramv2.jpg" alt="sriramv" width="100" />
                     </figure>
                     <div className="info-content">
-                        <h1 className="name" title="Richard hanrick">SRIRAM V</h1>
+                        <h1 className="name" title="sriramv">SRIRAM VENKATACHALAPATHY</h1>
                         <p className="title">Web developer</p>
+                        <p className="title">Machine Learning</p>
+                        <p className="title">Deep Learning</p>
                     </div>
-                    <button className="info_more-btn" data-sidebar-btn>
-                        <span>Show Contacts</span>
-                        <ion-icon name="chevron-down"></ion-icon>
-                    </button>
+                    
                 </div>
+                <div className="separator"></div>
+                    <ul className="social-list">
+                        <li className="social-item">
+                            <a href="https://github.com/sriram1015" className="social-link">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </li>
+                        <li className="social-item">
+                            <a href="https://www.linkedin.com/in/sriramvenkatachalapathy/" className="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                        
+                    </ul>
                 <div className="sidebar-info_more">
                     <div className="separator"></div>
                     <ul className="contacts-list">
