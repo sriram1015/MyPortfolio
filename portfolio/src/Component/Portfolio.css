@@ -1,0 +1,168 @@
+/* Modern Dark Portfolio Sidebar Styles */
+
+/* General dark background */
+body, .portfolio {
+  background: #16181ab5;
+  color: #fff;
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background: #1013195d;
+  border-radius: 24px;
+  padding: 40px 32px;
+  width: 350px;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.avatar-box {
+  background: #232325;
+  border-radius: 24px;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.avatar-box img {
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.info-content {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.name {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.title {
+  background: #232325;
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 18px;
+  font-size: 1rem;
+  font-weight: 400;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.separator {
+  border-bottom: 1px solid #efeff8;
+  margin: 24px 0;
+}
+
+.contacts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.icon-box {
+  background: #e0e0e5;
+  border-radius: 12px;
+  padding: 10px;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffd700;
+  font-size: 1.3rem;
+}
+
+.contact-title {
+  font-size: 0.9rem;
+  color: #bdbdbd;
+  margin: 0 0 2px 0;
+}
+
+.contact-link, address, time {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contact-link:hover {
+  color: #ffd700;
+}
+
+.social-list {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-link {
+  background: #dedee4;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffd700;
+  font-size: 1.5rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.social-link:hover {
+  background: #ffd700;
+  color: #232325;
+}
+
+.info_more-btn {
+  background: #232325;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.2s;
+}
+
+.info_more-btn:hover {
+  background: #ffd700;
+  color: #232325;
+}
+
+/* Ion Icons styling */
+ion-icon {
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .sidebar {
+    width: 100%;
+    min-height: unset;
+    padding: 24px 8px;
+  }
+}
