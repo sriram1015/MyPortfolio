@@ -1,0 +1,133 @@
+.projects-section {
+    padding: 32px 0;
+    background: #1013195d;
+    border-radius: 24px;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #2d4263;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}
+
+.projects-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.projects-tab {
+    background: #1013195d;
+    color: #2d4263;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 32px;
+    border-radius: 32px;
+    box-shadow: 0 2px 8px rgba(31,38,135,0.07);
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.projects-tab.active {
+    background: #2d4263;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(45,66,99,0.12);
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.project-card {
+    background: #232325;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(31,38,135,0.09);
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(45,66,99,0.18);
+}
+
+.project-content {
+    padding: 22px 20px 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.project-content h3 {
+    font-size: 1.18rem;
+    font-weight: 700;
+    color: #f0f1f3;
+    margin: 0 0 6px 0;
+}
+
+.project-content p {
+    color: #f0f1f3;
+    font-size: 1rem;
+    margin: 0 0 8px 0;
+}
+
+.tech-list {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.tech-label {
+    font-weight: 600;
+    color: #ffd700;
+    margin-right: 8px;
+    font-size: 0.98rem;
+}
+
+.tech-tag {
+    background: #07081180;
+    color: #ebebe8;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-size: 0.93rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.project-link {
+    margin-top: 10px;
+    color: #ffd700;
+    font-weight: 600;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.project-link:hover {
+    color: #5ab807;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .card-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-card {
+        width: 95%;
+        max-width: 400px;
+    }
+}

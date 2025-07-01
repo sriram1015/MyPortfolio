@@ -1,18 +1,17 @@
 import React from 'react';
 import './Portfolio.css'; 
+import Pages from './Pages/Pages';
 const Portfolio = () => {
     return (
         <div className="portfolio">
             <aside className="sidebar" data-sidebar>
                 <div className="sidebar-info">
-                    <figure className="avatar-box">
-                        <img src="sriramv2.jpg" alt="sriramv" width="100" />
-                    </figure>
+                    <img src="sriramv2.jpg" alt="sriramv" width="100" />
                     <div className="info-content">
-                        <h1 className="name" title="sriramv">SRIRAM VENKATACHALAPATHY</h1>
-                        <p className="title">Web developer</p>
-                        <p className="title">Machine Learning</p>
-                        <p className="title">Deep Learning</p>
+                        <h1 className="name" title="sriramv">SRIRAM V</h1>
+                        <p className="title">Full Stack developer</p>
+                        <p className="title">Data Science Enthusiast</p>
+                        <p className="title">Artificial Intelligence</p>
                     </div>
                     
                 </div>
@@ -71,25 +70,10 @@ const Portfolio = () => {
                         </li>
                     </ul>
                     <div className="separator"></div>
-                    <ul className="social-list">
-                        <li className="social-item">
-                            <a href="#" className="social-link">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                            </a>
-                        </li>
-                        <li className="social-item">
-                            <a href="#" className="social-link">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                            </a>
-                        </li>
-                        <li className="social-item">
-                            <a href="#" className="social-link">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                            </a>
-                        </li>
-                    </ul>
+
                 </div>
             </aside>
+            <Pages />
         </div>
     );
 };
